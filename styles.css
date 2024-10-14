@@ -1,0 +1,165 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(27, 27, 27);
+
+}
+
+.left{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.left img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.odin-text{
+    position: absolute;
+    top: 18%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.odin-text img {
+    width: 20%;
+    height: 20%;
+}
+
+.odin-text span {
+    font-family: cursive;
+    font-size: 50px;
+    margin-top: 25px;
+    color: white;
+    padding: 10px;
+    
+}
+
+.right{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+.top{
+    padding-top: 150px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    width: 700px;
+}
+
+.top span{
+    margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+h3 {
+    color: #333;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 600px;
+    width: 100%;
+
+}
+
+.left-form, .right-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 100;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.create{
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.create button{
+    background-color: #596D48;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    width: 300px;
+    border-radius: 6px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 30px;
+}
+
+.create span {
+    color: #596D48;
+}
